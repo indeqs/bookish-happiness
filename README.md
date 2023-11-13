@@ -1,2 +1,1 @@
-# bookish-happiness
-repo meant to teach some security concepts
+Security, moreso ctf shit I find interesting and want to teach the concept to others.
