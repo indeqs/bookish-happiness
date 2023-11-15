@@ -26,7 +26,7 @@ user_supplied_hash = input(f"Enter hash digest for your input '{user_input}': ")
 print("\n")
 user_input = user_input.strip().lower()
 message = hash_digest(secret_key, user_input)
-print(f"\t\t\t*********** Our secure hash for you input, '{user_input}' was {message} ***********")
+print(f"\t\t\t*********** Our secure hash for your input, '{user_input}' was {message} ***********")
 
 if user_supplied_hash == message:
     os.system("cat ./flag.txt")
