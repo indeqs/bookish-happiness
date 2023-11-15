@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import hashlib, os, random
+import hashlib, os
 
 def hash_digest(secret_key, data):
     m = hashlib.md5()
@@ -16,7 +16,7 @@ print("\t\t\t*********** WELCOME FRIEND ***********")
 print("\t\t\t*********** THERE IS ONLY 1 HINT HERE ***********")
 print("\t\t\t*********** EXTEND IT...EXTEND IT....MAY THE gods BE WITH YOU!!! ***********")
 print("\n")
-print("\t\t\t*********** LENGTH OF THE KEY IS SOMEWHERE BETWEEN 10-15 BY THE WAY ***********")  # change prompt based on on lenghth of secret_key
+print("\t\t\t*********** LENGTH OF THE KEY IS SOMEWHERE BETWEEN 10-15 BY THE WAY ***********")  # change prompt based on on length of secret_key
 print("\n")
 print("\n")
 
